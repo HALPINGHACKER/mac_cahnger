@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Usage: ./change_mac.sh <interface> [<new_mac_address>]
+# Usage: ./mac_chnager.sh <interface> [<new_mac_address>]
 
 if [ "$#" -lt 1 ]; then
     echo "Usage: $0 <interface> [<new_mac_address>]"
